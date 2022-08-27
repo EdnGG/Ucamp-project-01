@@ -62,3 +62,23 @@
     height: 200px;
     margin: 100px;
 }
+
+.section-adicionales{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    width: 95%;
+    height: 600px;
+    margin: 100px;
+}
+
+.section-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #633838;
+    width: 95%;
+    height: 200px;
+    margin: 100px;
+}
