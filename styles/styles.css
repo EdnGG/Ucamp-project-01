@@ -91,16 +91,16 @@ html{
 .jumbotron-div p{
     font-size: 30px;
     font-weight: bold;
-    color: white;
+    color: rgb(245, 213, 213);
 }
 .jumbotron-div h1{
     font-size: 50px;
     font-weight: bold;
-    color: white;
+    color: rgb(245, 213, 213);
 }
 .jumbotron-btn{
     font-size: 50px;
-    color: white;
+    color: rgb(245, 213, 213);
     text-align: center;
     margin: 0;
     padding: 0;
@@ -108,7 +108,7 @@ html{
 }
 .jumbotron-btn a{
     font-size: 50px;
-    color: white;
+    color: rgb(245, 213, 213);
     text-align: center;
     margin: 0;
     padding: 0;
@@ -123,7 +123,7 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color: #f4abab;
     /* width: 95%; */
     height: 600px;
     margin: 100px;
@@ -149,16 +149,34 @@ html{
     text-decoration: none;
 }
 
+
 /* Ends Blog */
 
 /* Adicionales */
+.adicionales-title h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
 .section-adicionales{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color: #e4ecf3;
     /* width: 95%; */
-    height: 600px;
+    height: 800px;
+    margin: 100px;
+}
+.section-adicionales_cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #efc6c6; */
+    width: 100%;
+    height: 200px;
     margin: 100px;
 }
 
@@ -171,7 +189,7 @@ html{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #633838;
+    /* background-color: #633838; */
     /* width: 95%; */
     height: 300px;
     margin: 100px;
